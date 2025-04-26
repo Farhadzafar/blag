@@ -1,9 +1,9 @@
-import { Code2, Twitter, Github, Linkedin } from 'lucide-react';
-import Link from 'next/link';
+import { Code2, Twitter, Github, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="absolute bottom-0 w-full border-t bg-background">
+    <footer className="w-full border-t bg-background">
       <div className="container grid gap-8 py-8 md:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">

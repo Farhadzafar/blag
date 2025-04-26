@@ -14,14 +14,18 @@ export default function Hero() {
             Welcome to DevBlog
             <span className="ml-2">✨</span>
           </div>
-          <h1 className="font-heading text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl">
-            Master Modern <span className="gradient-text">Web Development</span>
-          </h1>
-          <p className="max-w-[42rem] leading-normal text-gray-200 sm:text-xl sm:leading-8">
-            Dive deep into Next.js, React, and modern web development. Learn
-            from experienced developers and stay up to date with the latest
-            trends.
-          </p>
+          <div className="py-4 text-center w-full">
+            <h1 className="font-heading text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl">
+              Master Modern{" "}
+              <span className="gradient-text">Web Development</span>
+            </h1>
+            <p className="max-w-[42rem] mx-auto leading-normal text-gray-200 sm:text-xl sm:leading-8 text-center">
+              Dive deep into Next.js, React, and modern web development. Learn
+              from experienced developers and stay up to date with the latest
+              trends.
+            </p>
+          </div>
+
           <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
             <Button asChild size="lg" className="rounded-full">
               <Link href="/blog">

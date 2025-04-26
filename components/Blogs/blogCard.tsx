@@ -15,7 +15,7 @@ import { Button } from "../ui/button";
 
 export default function BlogCard() {
   return (
-    <Card className="group relative overflow-hidden rounded-xl border bg-card p-2 card-hover shadow-md hover:shadow-xl my-2">
+    <Card className="group relative overflow-hidden rounded-xl border bg-card p-2 card-hover shadow-lg hover:shadow-xl my-2">
       <CardHeader className="relative aspect-video overflow-hidden rounded-lg">
         <Image
           src={image4}
