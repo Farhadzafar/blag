@@ -15,7 +15,7 @@ export default function FeaturesBlog() {
         <span className="rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
           Featured Articles
         </span>
-        <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-5xl">
+        <h2 className="font-heading text-xl leading-[1.1]  md:text-4xl">
           Latest Articles
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">

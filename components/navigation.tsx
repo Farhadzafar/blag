@@ -41,7 +41,7 @@ export function Navigation() {
       )}
     >
       <nav
-        className="container flex h-20 items-center mx-auto px-4 
+        className="max-w-7xl flex h-20 items-center mx-auto px-4 
       "
       >
         <div className="mr-4 hidden md:flex items-center flex-1">

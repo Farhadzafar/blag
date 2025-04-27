@@ -4,7 +4,7 @@ import Link from "next/link";
 export function Footer() {
   return (
     <footer className="w-full border-t bg-background">
-      <div className="container grid gap-8 py-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="max-w-7xl mx-auto grid gap-8 p-8 md:grid-cols-2 lg:grid-cols-4 lg:items-start items-center justify-center sm:text-center ">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">
             <Code2 className="h-6 w-6 text-primary" />
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
         <div>
           <h3 className="mb-4 text-sm font-medium">Follow Us</h3>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 sm:items-center sm:justify-center">
             <a
               href="https://twitter.com"
               target="_blank"
