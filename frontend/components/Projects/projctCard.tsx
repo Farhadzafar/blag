@@ -9,7 +9,7 @@ export default function ProjectCard() {
     <Card className="w-full max-w-md overflow-hidden group shadow-ms hover:shadow-lg shadow-blue-400/50 dark:shadow-blue-400/20 hover:shadow-blue-400/50 hover:dark:shadow-blue-400/20 dark:border-blue-600/50 rounded-lg transition-transform hover:scale-[1.01] duration-200 ease-in-out">
       <div className="overflow-hidden relative">
         <img
-          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1600"
+          src="/images/project/project.png"
           alt="Project Image"
           className="w-full h-48 object-cover  transition-transform group-hover:scale-[1.1] duration-200 ease-in-out"
         />

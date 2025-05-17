@@ -8,18 +8,18 @@ export default function Hero() {
     <>
       <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
       <div className=" relative">
-        <div className="mx-auto flex max-w-[64rem] flex-col items-center gap-4 text-center">
+        <div className="mx-auto flex max-w-[64rem] flex-col items-start justify-start gap-4 text-left">
           <div className="rounded-2xl bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur">
             <span className="mr-2">🚀</span>
             Welcome to DevBlog
             <span className="ml-2">✨</span>
           </div>
-          <div className="py-4 text-center w-full">
+          <div className="py-4 text-left w-full">
             <h1 className="font-heading text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl">
               Master Modern{" "}
               <span className="gradient-text">Web Development</span>
             </h1>
-            <p className="max-w-[42rem] mx-auto leading-normal text-gray-200 sm:text-xl sm:leading-8 text-center">
+            <p className="max-w-[42rem] leading-normal text-gray-200 sm:text-xl sm:leading-8 text-left">
               Dive deep into Next.js, React, and modern web development. Learn
               from experienced developers and stay up to date with the latest
               trends.

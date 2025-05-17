@@ -1,7 +1,7 @@
 // app/resources/page.tsx
 import fs from "fs";
 import path from "path";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
@@ -17,6 +17,7 @@ type ResourceItem = {
 };
 
 const ResourceCard = ({ item }: { item: ResourceItem }) => (
+  //  const  {name, setNmae}= useState();
   <Card className="px-4 py-6 border shadow-md hover:shadow-blue-400/40 dark:border-blue-600/50 rounded-lg transition-transform hover:scale-[1.01] duration-200 ease-in-out">
     <div className="py-2 rounded-md w-[60px]">
       <Image

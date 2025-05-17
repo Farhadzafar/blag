@@ -81,7 +81,8 @@
 }
 
 .hero-pattern {
-  background-image: url("https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=2072&auto=format&fit=crophttps://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop");
+  /* background-image: url("https://images.unsplash.com/photo-1517433456452-f9633a875f6f?q=80&w=2072&auto=format&fit=crophttps://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"); */
+  background-image: url("../public/images/hero.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

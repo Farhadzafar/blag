@@ -1,0 +1,22 @@
+{
+  "name": "dev-blag",
+  "version": "1.0.0",
+  "description": "sharing web blag and projects and more about me and web",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Farhad Ahmad Zafari",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.3"
+  }
+}
