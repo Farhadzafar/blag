@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Farhad", "Zafari"]
+  "cSpell.words": ["Farhad", "Zafari"],
+  "postman.settings.dotenv-detection-notification-visibility": false
 }

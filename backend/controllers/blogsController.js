@@ -7,7 +7,7 @@ const createBlog = async (req, res) => {
   try {
     res.status(201).json({
       status: "success",
-      blogfarhad: newBlog,
+      blog: newBlog,
     });
   } catch (error) {
     res.status(400).json({
@@ -30,7 +30,6 @@ const getAllBlogs = async (req, res) => {
 
 const getBlog = async (req, res) => {
   const { id } = req.params;
-  console.log(id);
   // const blog = await Blog.findById(id);
   try {
     // const blog = await Blog.find(id);

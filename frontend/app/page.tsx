@@ -91,6 +91,7 @@ export default function Home() {
           <h2 className="font-heading text-xl leading-[1.1]  md:text-4xl">
             Helpful Resources
           </h2>
+
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
             Everything you need to accelerate your development workflow
           </p>
